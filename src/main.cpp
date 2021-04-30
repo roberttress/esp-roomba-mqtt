@@ -91,9 +91,9 @@ void wakeOnDock() {
 
 void wakeOffDock() {
   DLOG("Wakeup Roomba off Dock\n");
-  Serial.write(131); // Safe mode
-  delay(300);
-  Serial.write(130); // Passive mode
+  //Serial.write(131); // Safe mode
+  //delay(300);
+  //Serial.write(130); // Passive mode
 }
 
 bool performCommand(const char *cmdchar) {
